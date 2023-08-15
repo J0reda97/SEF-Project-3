@@ -1,0 +1,114 @@
+/* global */
+
+:root {
+    --main-color: #0dcaf0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.form-check-input:checked {
+    background-color: var(--main-color)
+}
+
+.main-heading {
+    background: linear-gradient(to bottom, #ff00bf 0%, #003cff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-right: 2px solid #eee;
+    text-transform: uppercase;
+}
+
+/* navbar */
+
+nav .logo {
+    width: 50px;
+    height: 50px;
+}
+
+nav .nav-item .nav-link,
+nav .dropdown-menu a,
+nav .nav-link.active {
+    color: var(--main-color) !important;
+}
+
+input {
+    border: 2px solid var(--main-color) !important;
+    caret-color: #ccc;
+    color: #ccc;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+nav .dropdown,
+nav .dropdown-menu {
+    border: 1px solid var(--main-color);
+}
+
+nav .dropdown-divider {
+    border-color: var(--main-color);
+}
+
+/* carousel */
+
+.carousel-item {
+    height: calc(100vh - 66px);
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(13, 202, 240, 0.5)
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel aside {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    font-size: 50px;
+    z-index: 9;
+    cursor: pointer;
+    color: #334A52;
+}
+
+.carousel aside .icon:hover {
+    color: var(--main-color);
+}
+
+/* welcome */
+
+.welcome {
+    background-color: #96AFB8;
+}
+
+.welcome .container h2 {
+    border: none;
+}
+
+
+/* dest */
+
+.dest {
+    background-color: #3C9181
+}
+
+.accordion-item h2.main-heading {
+    border: none;
+    font-size: 25px;
+}
