@@ -21,6 +21,12 @@ body {
     text-transform: uppercase;
 }
 
+/* tooltip */
+.custom-tooltip {
+    --bs-tooltip-color: #3C9181;
+    --bs-tooltip-bg: #CFE2FF;
+}
+
 /* navbar */
 
 nav .logo {
@@ -127,6 +133,10 @@ nav .dropdown-divider {
     font-weight: 500;
 }
 
+.translate button:hover {
+    color: #3C9181;
+}
+
 .translate textarea {
     display: block;
     border: 1px solid #777;
@@ -137,7 +147,7 @@ nav .dropdown-divider {
 /* pop */
 
 .pop {
-    padding: 200px 0;
+    padding-top: 200px;
     background-attachment: fixed;
     background-size: cover;
     background-image: url(../imgs/luxur/img9.jpg);
@@ -180,4 +190,17 @@ nav .dropdown-divider {
 .pop .card:hover::after {
     width: 100%;
     height: 100%;
+}
+
+/* thanks */
+
+.thanks {
+    padding-top: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../imgs/aswan/img7.jpg);
+}
+
+.thanks .main-heading {
+    border: none;
 }
